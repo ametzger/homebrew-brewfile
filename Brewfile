@@ -44,3 +44,9 @@ cask "parallels-desktop"
 cask "spotify"
 cask "sublime-text"
 cask "visual-studio-code"
+
+mas "Airmail 3", id: 918858936
+mas "Day One", id: 1055511498
+mas "Slack", id: 803453959
+mas "Tweetbot", id: 557168941
+mas "Xcode", id: 497799835
