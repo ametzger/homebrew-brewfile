@@ -16,6 +16,8 @@ brew "go"
 brew "heroku"
 brew "httpie"
 brew "hyper"
+brew "mas"
+brew "node"
 brew "postgresql", restart_service: true
 brew "pyenv"
 brew "ruby-build"
