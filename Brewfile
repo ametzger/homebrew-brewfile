@@ -11,11 +11,11 @@ brew "curl", args: ["with-openssl"]
 brew "elixir"
 brew "emacs", args: ["with-cocoa", "with-gnutls"]
 brew "fish"
+brew "fzf"
 brew "git"
 brew "go"
 brew "heroku"
 brew "httpie"
-brew "hyper"
 brew "mas"
 brew "node"
 brew "postgresql", restart_service: true
