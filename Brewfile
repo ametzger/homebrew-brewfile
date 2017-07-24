@@ -46,6 +46,7 @@ cask "parallels-desktop"
 cask "pycharm"
 cask "spotify"
 cask "sublime-text"
+cask "transmission"
 cask "visual-studio-code"
 
 mas "Airmail 3", id: 918858936
