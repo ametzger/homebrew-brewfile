@@ -21,7 +21,7 @@ brew "httpie"
 brew "mas"
 brew "node"
 brew "postgresql", restart_service: true
-brew "pyenv"
+# brew "pyenv"
 brew "ruby-build"
 brew "rbenv"
 brew "redis"
