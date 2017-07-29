@@ -18,6 +18,7 @@ brew "git"
 brew "go"
 brew "heroku"
 brew "httpie"
+brew "hugo"
 brew "mas"
 brew "node"
 brew "postgresql", restart_service: true
