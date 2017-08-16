@@ -2,9 +2,9 @@ tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "caskroom/cask"
-tap "getantibody/homebrew-antibody"
+# tap "getantibody/homebrew-antibody"
 
-brew "antibody"
+# brew "antibody"
 brew "awscli"
 brew "sqlite"
 brew "python"
@@ -19,7 +19,9 @@ brew "go"
 brew "heroku"
 brew "httpie"
 brew "hugo"
+brew "hyper"
 brew "jq"
+brew "macvim", args: ["HEAD", "with-lua", "with-luajit", "with-override-system-vim"]
 brew "mas"
 brew "node"
 brew "postgresql", restart_service: true
@@ -59,6 +61,7 @@ cask "visual-studio-code"
 
 mas "Airmail 3", id: 918858936
 mas "Day One", id: 1055511498
+mas "Quiver", id: 866773894
 mas "Slack", id: 803453959
 mas "Tweetbot", id: 557168941
 mas "Xcode", id: 497799835
