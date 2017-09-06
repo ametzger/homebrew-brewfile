@@ -23,6 +23,8 @@ brew "hyper"
 brew "jq"
 brew "macvim", args: ["HEAD", "with-lua", "with-luajit", "with-override-system-vim"]
 brew "mas"
+brew "neovim"
+brew "nmap"
 brew "node"
 brew "postgresql", restart_service: true
 # brew "pyenv"
@@ -32,6 +34,7 @@ brew "redis"
 brew "ruby"
 brew "the_silver_searcher"
 brew "tmux"
+brew "tree"
 brew "wget"
 brew "wrk"
 brew "yarn"
@@ -40,6 +43,7 @@ brew "zsh"
 brew "zsh-completions"
 
 cask "1password"
+cask "alfred"
 cask "appcleaner"
 cask "dash"
 cask "datagrip"
@@ -49,14 +53,19 @@ cask "firefox"
 cask "google-chrome"
 cask "hyper"
 cask "iterm2"
+cask "little-snitch"
+cask "macdown"
 cask "omnifocus"
 cask "parallels-desktop"
 # cask "pycharm"
+cask "rocket"
 cask "skype"
+cask "spillo"
 cask "spotify"
 cask "sublime-text"
 cask "textexpander"
 cask "transmission"
+cask "vagrant"
 cask "visual-studio-code"
 
 mas "Airmail 3", id: 918858936
@@ -65,3 +74,4 @@ mas "Quiver", id: 866773894
 mas "Slack", id: 803453959
 mas "Tweetbot", id: 557168941
 mas "Xcode", id: 497799835
+
