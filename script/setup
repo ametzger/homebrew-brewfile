@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if command -v brew >/dev/null 2>&1; then
+    echo "Homebrew installed, skipping..."
+else
+    echo "Installing Homebrew..."
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    echo "Done!"
+fi
+
+echo "Setting up Homebrew..."
+brew tap caskroom/cask
+brew tap Homebrew/bundle
+echo "Done!"
+
+echo "Installing apps from Brewfile..."
+brew bundle
+echo "Done!"
+
