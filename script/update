@@ -1,0 +1,15 @@
+#!/bin/bash
+# -*- shell-script -*-
+
+set -euo pipefail
+
+if [ -f 'Brewfile' ]; then
+  if [ -f Brewfile.bak ]; then
+    rm Brewfile.bak
+  fi
+
+  echo 'Moving Brewfile to Brewfile.bak'
+  mv Brewfile Brewfile.bak
+fi
+  
+brew bundle dump --file=Brewfile
