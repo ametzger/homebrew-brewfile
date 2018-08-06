@@ -2,18 +2,18 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "caskroom/versions"
 tap "caskroom/cask"
-# tap "getantibody/homebrew-antibody"
 
-# brew "antibody"
 brew "awscli"
 brew "amazon-ecs-cli"
 brew "sqlite"
 brew "python"
-brew "crystal-lang"
+brew "crystal"
+brew "consul"
 brew "curl", args: ["with-openssl"]
 brew "elixir"
-brew "emacs", args: ["with-cocoa", "with-gnutls"]
+brew "emacs", args: ["HEAD", "with-cocoa", "with-gnutls", "with-librsvg", "with-imagemagick@6", "with-mailutils"]
 brew "fish"
 brew "fzf"
 brew "git"
@@ -21,7 +21,6 @@ brew "go"
 brew "heroku"
 brew "httpie"
 brew "hugo"
-brew "hyper"
 brew "jq"
 brew "macvim", args: ["HEAD", "with-lua", "with-luajit", "with-override-system-vim"]
 brew "mas"
@@ -36,12 +35,15 @@ brew "postgresql", restart_service: true
 brew "ruby-build"
 brew "rbenv"
 brew "redis", restart_service: true
+brew "rabbitmq", restart_service: true
+brew "reattach-to-user-namespace"
 brew "ripgrep"
 brew "ruby"
 brew "tfenv"
 brew "the_silver_searcher"
 brew "tmux"
 brew "tree"
+brew "vault"
 brew "wget"
 brew "wrk"
 brew "yarn"
@@ -54,35 +56,34 @@ cask "1password-cli"
 cask "alfred"
 cask "appcleaner"
 cask "dash"
-cask "datagrip"
+# cask "datagrip"
 cask "docker"
 cask "dropbox"
 cask "firefox"
 cask "google-chrome"
-cask "hyper"
+# cask "hyper"
 cask "iterm2"
-cask "little-snitch"
+# cask "little-snitch"
 cask "macdown"
 cask "ngrok"
 cask "omnifocus"
-cask "parallels-desktop"
+cask "p4merge"
+# cask "parallels-desktop"
 cask "postman"
-cask "pycharm"
-cask "rocket"
-cask "skype"
+# cask "pycharm"
 cask "spillo"
 cask "spotify"
 cask "sublime-text"
-cask "textexpander"
 cask "transmission"
 cask "vagrant"
 cask "visual-studio-code"
 
 mas "Airmail 3", id: 918858936
+mas "Bear", id: 1091189122
 mas "Day One", id: 1055511498
+mas "Magnet", id: 441258766
 mas "Pixelmator Pro", id: 1289583905
-mas "Quiver", id: 866773894
+# mas "Quiver", id: 866773894
 mas "Slack", id: 803453959
 mas "Tweetbot", id: 557168941
 mas "Xcode", id: 497799835
-
